@@ -38,14 +38,14 @@ dim(powerConsumption)
 str(powerConsumption)
 
 # Plot 2 (Graphics Device: PNG)
-png('plot2.png', width=480, height=480)
+png('plot2.png', width = 480, height = 480)
 
 # Plot 2 (Graphics Device: Screen); Type: lines
 # No X label as shown in the reference image.
 plot(x = powerConsumption$Date_and_Time,
      y = powerConsumption$Global_active_power, 
-     type='l', 
-     xlab='', 
-     ylab='Global Active Power (kilowatts)')
+     type = 'l', 
+     xlab = '', 
+     ylab = 'Global Active Power (kilowatts)')
 
 dev.off()

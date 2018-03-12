@@ -38,23 +38,23 @@ dim(powerConsumption)
 str(powerConsumption)
 
 # Plot 3 (Graphics Device: PNG)
-png('plot3.png', width=480, height=480)
+png('plot3.png', width = 480, height = 480)
 
 # Plot 3 (Graphics Device: Screen); Type: lines
 # No X label as shown in the reference image.
-plot(powerConsumption$Date_and_Time, 
-     powerConsumption$Sub_metering_1, 
-     type='l', 
-     xlab='', 
-     ylab='Energy sub metering')
+plot(x = powerConsumption$Date_and_Time, 
+     y = powerConsumption$Sub_metering_1, 
+     type = 'l', 
+     xlab = '', 
+     ylab = 'Energy sub metering')
 
 lines(powerConsumption$Date_and_Time, 
       powerConsumption$Sub_metering_2,
-      col='red')
+      col = 'red')
 
 lines(powerConsumption$Date_and_Time, 
       powerConsumption$Sub_metering_3,
-      col='blue')
+      col = 'blue')
 
 # Add legend
 legend('topright', 

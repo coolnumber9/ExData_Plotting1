@@ -112,3 +112,25 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+## Assignment PNG Output
+Here are my outputs from the Scripts uploaded in this repo.
+
+### Plot 1
+
+
+![plot1](plot1.png) 
+
+
+### Plot 2
+
+![plot2](plot2.png) 
+
+
+### Plot 3
+
+![plot3](plot3.png) 
+
+
+### Plot 4
+
+![plot4](plot4.png)

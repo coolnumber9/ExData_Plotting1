@@ -46,12 +46,16 @@ dim(powerConsumption)
 str(powerConsumption)
 
 # Plot 1 (Graphics Device: PNG)
-png("plot1.png", width=480, height=480)
+png("plot1.png", width = 480, height = 480)
 
 # Plot 1 (Graphics Device: Screen)
-hist(powerConsumption$Global_active_power, main='Global Active Power', 
-     xlab='Global Active Power (kilowatts)', ylab='Frequency', col='red')
+hist(powerConsumption$Global_active_power, 
+     main = 'Global Active Power', 
+     xlab = 'Global Active Power (kilowatts)', 
+     ylab = 'Frequency', 
+     col = 'red')
 
+# Just wanted to add Rug
 rug(powerConsumption$Global_active_power)
 
 dev.off()
